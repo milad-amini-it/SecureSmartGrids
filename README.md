@@ -16,8 +16,7 @@ Usage
 
     python smart_grid_security.py
 ```
- In separate terminals, run clients (simulated here; adjust for real deployment):
- Modify main() to run clients separately if needed.
+
 
 Features
 
