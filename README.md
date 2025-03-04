@@ -16,27 +16,16 @@ Usage
 
     python smart_grid_security.py
 ```
-    In separate terminals, run clients (simulated here; adjust for real deployment):
-        Modify main() to run clients separately if needed.
+ In separate terminals, run clients (simulated here; adjust for real deployment):
+ Modify main() to run clients separately if needed.
 
 Features
 
-    Adversarial training with SVM and FGSM.
-    Federated learning across 4 simulated edge devices.
-    Blockchain logging of model updates.
+Adversarial training with SVM and FGSM.
+Federated learning across 4 simulated edge devices.
+Blockchain logging of model updates.
 
 Paper Reference
 
 Based on: "Securing Edge-Based Smart Grids with Privacy-Preserving Adversarial Machine Learning and Blockchain Integration."
 
-Push to GitHub:
-
-    
-```bash
-
-git init
-git add .
-git commit -m "Initial implementation of smart grid security framework"
-git remote add origin <your-repo-url>
-git push -u origin main
-```
