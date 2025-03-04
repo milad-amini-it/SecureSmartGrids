@@ -29,7 +29,7 @@ Output:
 
 Server will show aggregated results after 3 rounds.
 Clients will report local F1-scores and latencies.
-Final accuracy will depend on the data but will be honest and unmanipulated.
+Final accuracy will depend on the data.
 
 you can run this project with simulated data (insted of client server) and ElectricityLoadDiagrams20112014 from UCI Machine Learning Repository for easier Run project
 make sure file LD2011_2014.txt exist on running path then Run
