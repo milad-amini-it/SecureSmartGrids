@@ -11,13 +11,31 @@ pip install -r requirements.txt
 ```
 Usage
 
-    Run the server:
+Run the server:
  ```bash
 
     python smart_grid_security.py
 ```
+Run 4 Clients in Separate Terminals
+```bash
 
+    python smart_grid_security.py client 0
+    python smart_grid_security.py client 1
+    python smart_grid_security.py client 2
+    python smart_grid_security.py client 3
+```
 
+Output:
+
+Server will show aggregated results after 3 rounds.
+Clients will report local F1-scores and latencies.
+Final accuracy will depend on the data but will be honest and unmanipulated.
+
+you can run this project with simulated data (insted of client server) and ElectricityLoadDiagrams20112014 from UCI Machine Learning Repository for easier Run project
+make sure file LD2011_2014.txt exist on running path then Run
+ ```bash
+    python smart_grid_security_with_simulated_data.py
+```
 Features
 
 Adversarial training with SVM and FGSM.
